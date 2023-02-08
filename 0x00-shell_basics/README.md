@@ -7,3 +7,5 @@ ls -na: this command displays the files in the working directory  with user and 
 mkdir /tmp/my_first_directory: this creates a directory named my_first_directory in the /tmp/ directory.
 mv /tmp/betty /tmp/my_first_directory: this Move the file betty from /tmp/ to /tmp/my_first_directory.
 rm /tmp/my_first_directory/betty: this Delete the file betty the file betty is in /tmp/my_first_directory
+rm -r /tmp/my_first_directory: this Delete the directory my_first_directory that is in the /tmp directory.
+cd -: thia chnaged the working directory to the the previous one
