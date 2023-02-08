@@ -10,3 +10,4 @@ rm /tmp/my_first_directory/betty: this Delete the file betty the file betty is i
 rm -r /tmp/my_first_directory: this Delete the directory my_first_directory that is in the /tmp directory.
 cd -: thia chnaged the working directory to the the previous one
 ls -al . .. /boot :  lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format.
+ln -s /bin/ls __ls__: thisCreate a symbolic link to /bin/ls, named __ls__ in your working directory
