@@ -1,0 +1,2 @@
+#!/bin/nbash
+echo "$USER"
